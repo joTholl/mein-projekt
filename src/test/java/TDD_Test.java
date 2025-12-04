@@ -1,10 +1,9 @@
 import org.junit.jupiter.api.Test;
 
-import java.lang.reflect.Array;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class TDD__Test {
+public class TDD_Test {
     //Aufgabe 1
     @Test
     void sumTest(){
@@ -53,7 +52,7 @@ public class TDD__Test {
     //Aufgabe 8
     @Test
     void fibonacciTest(){
-        assertEquals(1,TDD.fibonacci(0));
+        assertEquals(0,TDD.fibonacci(0));
         assertEquals(1,TDD.fibonacci(1));
         assertEquals(1,TDD.fibonacci(2));
         assertEquals(8,TDD.fibonacci(6));
