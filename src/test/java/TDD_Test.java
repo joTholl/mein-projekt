@@ -20,6 +20,7 @@ public class TDD_Test {
     @Test
     void getFirstCharacterTest(){
         assertEquals('H', TDD.getFirstCharacter("Hallo"));
+        assertNotEquals('A', TDD.getFirstCharacter("Hallo"));
     }
 
     //Aufgabe 4
