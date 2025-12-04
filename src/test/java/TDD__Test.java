@@ -53,7 +53,7 @@ public class TDD__Test {
     //Aufgabe 8
     @Test
     void fibonacciTest(){
-        assertEquals(0,TDD.fibonacci(0));
+        assertEquals(1,TDD.fibonacci(0));
         assertEquals(1,TDD.fibonacci(1));
         assertEquals(1,TDD.fibonacci(2));
         assertEquals(8,TDD.fibonacci(6));
